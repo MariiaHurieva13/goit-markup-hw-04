@@ -389,6 +389,10 @@ button:focus {
     border-radius: 4px;
     margin-bottom: 8px;
 }
+.icon-container svg {
+    width: 64px;
+    height: 64px;
+}
 .adventures-subtitle {
     font-weight: 500;
     font-size: 24px;
