@@ -238,10 +238,9 @@ h1,h2,h3,h4,h5,h6,p {
     padding-bottom: 24px;
     display: block;
     transition: 250ms cubic-bezier(0.4,0,0.2,1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contacts-list-link1 {
-    transition: color 250ms cubic-bezier(0.4,0,0.2,1);
-}
+
 .contacts-list-item .contacts-list-link:hover,
 .contacts-list-item .contacts-list-link:focus {
     color: #404bbf;
@@ -464,11 +463,15 @@ button:focus {
     flex-direction: column;
     width: calc(25% - 20px);
     border-radius: 0 0 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46,47,66,0.08),0px 1px 1px;
     padding: 32px 0;
     text-align: center;
     transition: transform 250ms ease,box-shadow 250ms ease;
 
+}
+.team-list-item:first-child {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-list-item:hover{
     transform: translateY(-5px);
@@ -505,9 +508,16 @@ button:focus {
 .social-link:hover,
 .social-link:focus {
     background-color: #404bbf;
+    border-radius: 4px;
+    padding: 4px;
 }
 .social-link svg {
     fill: var(--con-color, #f4f4fd);
+}
+svg[class^="icon"] {
+    fill: currentColor;
+    width: 16px;
+    height: 16px;
 }
 .portfolio {
     padding: 50px 20px;
