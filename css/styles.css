@@ -678,8 +678,8 @@ transition: box-shadow 250ms cubic-bezier(0.4,0,0.2,1);
     list-style: none;
 }
 .social-item {
-    width: 16px;
-    height: 16px;
+    width: 40px;
+    height: 40px;
     fill: currentColor;
     display: flex;
     gap: 24px;
@@ -687,8 +687,8 @@ transition: box-shadow 250ms cubic-bezier(0.4,0,0.2,1);
 .social-item-footer {
     display: flex;
     gap: 16px;
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
 }
 .footer-social-link {
     display: flex;
