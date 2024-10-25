@@ -714,11 +714,6 @@ transition: box-shadow 250ms cubic-bezier(0.4,0,0.2,1);
     height: 24px;
 }
 
-.try {
-    display: flex;
-    gap: 16px;
-}
-
 /* Адаптивність для мобільних пристроїв */
 @media (max-width: 768px) {
     .footer-container {
